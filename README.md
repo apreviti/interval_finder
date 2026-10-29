@@ -130,18 +130,18 @@ have separate [source, attribution, and licensing information](instances/benchma
 
 ## Citation
 
-The algorithm implemented here was presented in **On Computing Generalized Backbones** by Alessandro Previti, Alexey Ignatiev, Matti Järvisalo, and Joao Marques-Silva (ICTAI 2017, pp. 1050–1056). If you use this tool in your research, please cite this paper: [DOI](https://doi.org/10.1109/ICTAI.2017.00161) · [Open-access manuscript](https://hdl.handle.net/10138/309049).
+The algorithm implemented here was presented in **On Computing Generalized Backbones** by Alessandro Previti, Alexey Ignatiev, Matti Järvisalo, and João Marques-Silva (ICTAI 2017, pp. 1050–1056). If you use this tool in your research, please cite this paper: [DOI](https://doi.org/10.1109/ICTAI.2017.00161) · [Open-access manuscript](https://hdl.handle.net/10138/309049).
 
 ```bibtex
-@inproceedings{previti2017generalizedbackbones,
-  author    = {Alessandro Previti and Alexey Ignatiev and
-               Matti J{\"a}rvisalo and Joao Marques-Silva},
-  title     = {On Computing Generalized Backbones},
-  booktitle = {Proceedings - 2017 International Conference on Tools with Artificial Intelligence, ICTAI 2017},
-  year      = {2017},
-  pages     = {1050--1056},
-  publisher = {IEEE Computer Society},
-  doi       = {10.1109/ICTAI.2017.00161},
-  url       = {https://doi.org/10.1109/ICTAI.2017.00161}
+@inproceedings{DBLP:conf/ictai/PrevitiIJM17,
+  author       = {Alessandro Previti and
+                  Alexey Ignatiev and
+                  Matti J{\"{a}}rvisalo and
+                  Jo{\~{a}}o Marques{-}Silva},
+  title        = {On Computing Generalized Backbones},
+  booktitle    = {{ICTAI}},
+  pages        = {1050--1056},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2017}
 }
 ```
