@@ -1,6 +1,6 @@
 # Interval Finder
 
-Compute each variable's feasible domain in an SMT formula using Z3: disjoint
+Compute each variable's feasible domain (variable range) in SMT formulas using Z3: disjoint
 intervals for numeric variables and feasible-value sets for Booleans.
 
 ## Supported theories
