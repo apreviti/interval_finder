@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interval-finder"
+version = "0.1.0"
+description = "Compute feasible numeric intervals and Boolean domains for SMT formulas using Z3"
+readme = "README.md"
+authors = [{name = "Alessandro Previti"}]
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["z3-solver"]
+
+[project.scripts]
+interval-finder = "interval_finder.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
