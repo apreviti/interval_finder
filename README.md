@@ -82,6 +82,13 @@ Automatic variable discovery reports progress and timing. Set
 `show_progress=False` in the constructor to silence this feedback. A spinner is
 shown in interactive terminals; other output streams receive plain status text.
 
+A runnable version is available in [scripts/example_api.py](scripts/example_api.py).
+After installation, run it from the repository root:
+
+```bash
+python scripts/example_api.py
+```
+
 ### Optional performance optimization
 
 For a quick test, omit the variable list and use automatic Z3 discovery. On large
@@ -102,6 +109,16 @@ finder = VarIntervalFinder(formula, variables)
 This applies to both the finder and numeric verification. Pass `None` to the
 verifier's variable-list argument to request automatic discovery. All variables
 must use the same Z3 context as the formula.
+
+## Tests
+
+Run all regression tests and verify the bundled CLI example from the repository root:
+
+```bash
+python scripts/test_all.py
+```
+
+The checks use the current source tree and do not require downloaded benchmark collections.
 
 ## Author and license
 
