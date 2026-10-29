@@ -124,8 +124,9 @@ The checks use the current source tree and do not require downloaded benchmark c
 
 Author: **Alessandro Previti**. Copyright (c) 2026 Alessandro Previti.
 
-Distributed under the [MIT License](LICENSE). Dependencies retain their own
-copyright and license terms.
+The source code is distributed under the [MIT License](LICENSE). Dependencies
+retain their own copyright and license terms. The bundled SMT-LIB benchmarks
+have separate [source, attribution, and licensing information](instances/benchmarks/README.md).
 
 ## Citation
 
